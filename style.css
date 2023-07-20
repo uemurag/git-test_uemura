@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* index.phpファイルのスタイル */
+
+/* ページ全体の幅を指定して中央寄せ */
+body {
+  background-color: #D2CCE6;
+  width: 1200px;
+  margin: 0 auto; /* ページ全体を中央寄せ */
+}
+
+/* メインカラー */
+h1, h2, h3, h4, h5, h6 {
+  color: #796BAF;
+}
+
+/* リンクのアクセントカラー */
+a {
+  color: #1B1C80;
+}
+
+/* ボタンのアクセントカラー */
+.button {
+  background-color: #1B1C80;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* ボタンのホバーエフェクト */
+.button:hover {
+  background-color: #796BAF;
+}
+
+/* テキストの中央寄せ */
+.container {
+  text-align: center;
+}
+
+/* カスタムフォント (例: Google Fontsから"Roboto"を読み込んだ場合) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* h1のフォントをおしゃれに */
+h1 {
+  font-family: 'Arial', sans-serif; /* 代替フォント指定 */
+  font-size: 36px;
+  font-weight: bold;
+  color: #796BAF; /* メインカラーを再度適用 */
+  text-transform: uppercase; /* テキストを大文字に変換 */
+  letter-spacing: 2px; /* 文字の間隔を調整 */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* テキストの影を追加 */
+}
+.container img{
+	border-radius : 5%;
+}
+
+section {
+	margin-top: 50px;
+}
+/* フォームのスタイル */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 各要素間にスペースを10px追加 */
+form div {
+  margin-bottom: 10px;
+}
+/* input要素の角を丸くする */
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+select,
+textarea {
+  border-radius: 5px;
+}
