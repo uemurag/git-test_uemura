@@ -79,3 +79,31 @@ select,
 textarea {
   border-radius: 5px;
 }
+.member img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+  .member {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* 横方向に中央寄せ */
+  }
+
+  .member h2 {
+    width: 100%; /* h2要素を横幅いっぱいに広げる */
+    text-align: center; /* h2要素を中央寄せ */
+  }
+
+  .member div {
+    width: 200px;
+    height: 400px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  .contact-form input[type="email"] {
+    width: 40ch; /* 幅を40文字分に指定 */
+    box-sizing: border-box; /* 幅の計算にpaddingとborderを含める */
+  }

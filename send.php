@@ -17,7 +17,7 @@ $dbname = "git-test"; // データベース名
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
-$destination = $_POST['destination']; // 追加した部分
+$subject = $_POST['subject']; // 追加した部分
 
 // MySQLデータベースへの接続
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -28,11 +28,11 @@ if ($conn->connect_error) {
 }
 
 // データベースにデータを挿入するSQLクエリの作成 (宛先を含む)
-$sql = "INSERT INTO comments (name, email, message, destination) VALUES ('$name', '$email', '$message', '$destination')";
+$sql = "INSERT INTO comments (name, email, message, subject) VALUES ('$name', '$email', '$message', '$subject')";
 
 // クエリの実行と結果の確認
 if ($conn->query($sql) === TRUE) {
-    echo "データが正常に挿入されました。";
+    echo "お問い合わせありがとうございます。";
 } else {
     echo "データ挿入エラー: " . $conn->error;
 }

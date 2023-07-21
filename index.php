@@ -9,33 +9,47 @@
 <body>
 	<div class="container">
 		<h1> Git・PHP・SQLテスト課題</h1>
-		<section class="profile">
-			<h2>Profile</h2>
-			<p>娘3人、42歳</p>
-			<h2>self-introduction</h2>
-			<p>やりたいことがいっぱい</p>
-			<p>夢が抱えきれないドリーマー</p>
-			<img src="hands.PNG" alt="hands" width="200">
+		<section class="member">
+			<h2>Member</h2>
+			<div class="uemura">
+				<h3>Profile</h3><!-- 上村 -->			
+				<img src="kimimaro.jpg" alt="kimimaro"><br><!-- 写真（サイズ何でもOK！） -->
+				<b>きみまろ</b><!-- 名前 -->		
+				<p>周りの人の幸せが一番</p><!-- 自己紹介 -->		
+			</div>
+			<div class="wakagi">
+				<h3>Profile</h3><!-- 若木さん -->			
+				<img src="" alt=""><br><!-- 写真（サイズ何でもOK！） -->
+				<b></b><!-- ご自身の名前 -->		
+				<p></p><!-- 自己紹介 -->		
+			</div>
+			<div class="yamasaki">
+				<h3>Profile</h3><!-- 山崎さん -->			
+				<img src="" alt=""><br><!-- 写真（サイズ何でもOK！） -->
+				<b></b><!-- ご自身の名前 -->		
+				<p></p><!-- 自己紹介 -->		
+			</div>
 		</section>
+
 
 		<section class="contact-form">
 			<h2>お問い合わせフォーム</h2>
 			<form action="send.php" method="POST">
 				<div>
-					<label for="name">名前</label><br>
+					<label for="name">お名前</label><br>
 					<input type="text" id="name" name="name" autofocus required >
 				</div>
 				<div>
 					<label for="email">メールアドレス</label><br>
-					<input type="email" id="email" name="email" placeholder="fullofdreams@inbothhands.com" required >
+					<input type="email" id="email" name="email" placeholder="fullofdreams@inbothhands.com" required>
 				</div>
 				<div>
 					<label for="">宛先</label><br>
-					<select name="destination">
+					<select name="subject">
 					<option value="destination">選択してください</option>
-					<option value="若木">若木</option>
-					<option value="山崎">山崎</option>
-					<option value="上村">上村</option>
+					<option value="わかぎさん">わかぎ</option>
+					<option value="しんちゃん">しんちゃん</option>
+					<option value="きみまろ">きみまろ</option>
 					</select>
 					</div>
 				<div>
