@@ -19,9 +19,9 @@
 			</div>
 			<div class="wakagi">
 				<h3>Profile!!</h3><!-- 若木さん -->			
-				<img src="" alt=""><br><!-- 写真（サイズ何でもOK！） -->
-				<b></b><!-- ご自身の名前 -->		
-				<p></p><!-- 自己紹介 -->		
+				<img src="img/neko.JPEG" alt=""><br><!-- 写真（サイズ何でもOK！） -->
+				<b>わかぎ</b><!-- ご自身の名前 -->		
+				<p>いい加減</p><!-- 自己紹介 -->		
 			</div>
 			<div class="yamasaki">
 				<h3>Profile</h3><!-- 山崎さん -->			
