@@ -18,6 +18,9 @@
 --
 -- Table structure for table `comments`
 --
+CREATE git-test;
+USE git-test;
+
 
 DROP TABLE IF EXISTS `comments`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
